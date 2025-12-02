@@ -1,0 +1,179 @@
+<!html>
+    <head>
+        <title>Personal Portfolio Website - Sachin Waghmare</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/294dd10b31.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header1">
+                <div class="header1-left">
+                    <p>.Net Developer</p>
+                    <h1>Hi, I'm ,<span>Sachin Waghmare.</span></h1>
+                </div>
+                <div class="header1-right">
+                    <img src="images/User.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------About Section ------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/User.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="color:lightblue">Welcome to my portfolio.I'm <b>Sachin Waghmare</b>, a passionate <b>.Net Developer</b>. I focus on building scalable, responsive web applications with clean architecture and great user experiences across various devices.<br><br>
+                        My core skills span modern frontend (HTML5, CSS3,Javascript), backend services (ASP.Net,ADO.Net), and databases (Microsoft SQL Server).</p><br>
+                
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+    
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End:</span><br>HTML5, CSS3,Javascript</li>
+                            <li><span>Back-End:</span><br>ASP.Net,ADO.Net</li>
+                            <li><span>Database:</span><br>Microsoft SQL Server</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2025:</span><br>B.TECH from MSS's CET Jalna <br>CGPA:8.35.</li>
+                            <li><span>2021:</span><br>HSC from Lokmanya Tilak Sevali <br>81.17%.</li>
+                            <li><span>2019:</span><br>SSC from ZPHS Sevali <br>79.80%.</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------------------Services Section ------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Custom .NET Application Development</h2>
+                <p>Building tailored applications (web, desktop, or mobile) using .NET to precisely match your business needs. I write clean, maintainable code and design intuitive user experiences that help you scale.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web API Development</h2>
+                <p>I design and build APIs with .NET so your systems or third-party services can talk to each other smoothly.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>Web Application Development (ASP.NET)</h2>
+                <p>Creating responsive, secure, and high-performance web applications using ASP.NET Core, MVC, or Web API. This enables you to deliver modern web services that integrate seamlessly with your back-end systems.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------------Projects Section ------------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Hotel.jpg" alt="">
+                <div class="layer">
+                    <h3 style="color:lightgoldenrodyellow"><b>Hotel Management System</b></h3>
+                    <p>The Project is all about providing hotel reservation to the registered users by providing the selected facilities.</p>
+                    <a href="https://github.com/Sachin21code/Hotel-Management-System"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Coffee.png" alt="">
+                <div class="layer">
+                    <h3 style="color:lightgoldenrodyellow"><b>CoffeeCraze</b></h3>
+                    <p>CoffeeCraze is a fully responsive static website created with HTML and CSS, It includes a multi-section header menu for easy browsing. The project highlights my front-end design skills and attention to layout detail.</p>
+                    <a href="https://coffeecraze.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Pune.png" alt="">
+                <div class="layer">
+                    <h3 style="color:lightgoldenrodyellow"><b>Website of Pune</b></h3>
+                    <p>This project is a static informational website about Pune, built with HTML and CSS. It features dedicated different sections offering an organized overview of the city.It demonstrates my skills in front-end structure and styling.</p>
+                    <a href="https://webpune.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-------------------------Contact Section ------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i><a href="mailto:sachinwaghmare980@gmail.com">sachinwaghmare980@gmail.com</a></p>
+                <p><i class="fa-solid fa-square-phone"></i><a href="tel:7057272590">7057272590</a></p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sachin-waghmare-34978a270/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Sachin21code"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/sachinwaghmare020/?igsh=amdobnRoYTVwZzB1#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/Waghmare_Sachin[Resume].pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                     <textarea name="Message" rows="10" placeholder="Your Message" required></textarea>
+                     <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © < Sachin Waghmare/> <i class="fa-solid fa-heart"></i> crafted with code & passion.</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
+
