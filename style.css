@@ -80,7 +80,6 @@ nav ul li a:hover::after{
 }
 /*-----------------About-------------*/
 #about{
-    margin-top: -190px;
     color: #ababab;
 }
 .row{
